@@ -4,18 +4,18 @@ import { Header } from "./module/index";
 
 
 const Router = (props) =>{
-    console.log("my data is",{props})
+    console.log("my data is",props.persondata)
     return(
         <>
         <BrowserRouter>
-        <Routes>
+        {/* <Routes>
             <Route path="" element={<Header/>} />
-        </Routes>
+        </Routes> */}
         <Routes>
             <Route path="" element={<Dashboard/>} />
         </Routes>
         <Routes>
-            <Route path="/aboutUs"  element={<AboutUs data={props.data} />} />
+            <Route path="/aboutUs"  element={<AboutUs data={props.persondata} />} />
         </Routes>
         </BrowserRouter>
 

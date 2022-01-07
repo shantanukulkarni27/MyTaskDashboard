@@ -4,7 +4,7 @@ const header = () =>{
     return(
         <div>
             <DashUl>
-                <DashLi><a href="#">Dashboard</a></DashLi>
+                <DashLi><a href="./">Dashboard</a></DashLi>
                 <DashLi><a href="/contact" >Contact</a></DashLi>
                 <DashLi><a href="/aboutUs">About us</a></DashLi>
             </DashUl>
