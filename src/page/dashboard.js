@@ -6,7 +6,7 @@ const Dashboard = () =>{
         <>
         <Header/>
         <DashHead>Welcome to dashboards</DashHead>
-        <MyButton name="myButton" class="variant" />
+        <MyButton name=" My Button" class="variant" />
         </>
     )
 }

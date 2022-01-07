@@ -68,5 +68,5 @@ color: rgb(232, 233, 235);
 `
 
 export const Btn = styled.button`
- background-color:grey;
+ background-color: ${(props)=>props.color};
 `

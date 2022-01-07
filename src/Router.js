@@ -1,16 +1,12 @@
 import { BrowserRouter,Routes,Route } from "react-router-dom";
 import { Dashboard,AboutUs } from "./page/index";
-import { Header } from "./module/index";
-
 
 const Router = (props) =>{
     console.log("my data is",props.persondata)
     return(
         <>
         <BrowserRouter>
-        {/* <Routes>
-            <Route path="" element={<Header/>} />
-        </Routes> */}
+       
         <Routes>
             <Route path="" element={<Dashboard/>} />
         </Routes>

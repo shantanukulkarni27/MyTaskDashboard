@@ -1,6 +1,5 @@
 import {Header} from "../module/index"
 import { HeaderWrapper,ImgHolder,HeadTexts,BioSection,BioList,MyArticle,ArticleHead } from '../components/styles';
-// import styled, {StyledComponent} from 'styled-components';
 
 const aboutUsPage =(props)=>{
     console.log("data in about us",props.data)

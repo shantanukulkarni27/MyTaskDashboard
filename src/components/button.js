@@ -1,7 +1,11 @@
 import {Btn} from "./styles"
 const MyButton = (props) =>{
     return(
-        <Btn className={props.class}>{props.name}</Btn>
+     <>
+        <Btn color="red">{props.name}</Btn><br/><br/>
+        <Btn color="grey">{props.name}</Btn>
+       
+     </>
     )
 }
 
