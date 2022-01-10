@@ -1,5 +1,5 @@
 import { DashHead } from "../components/styles";
-import {MyButton} from "../components/index";
+import {MyButton,Counter} from "../components/index";
 import { Header } from "../module/index";
 const Dashboard = () =>{
     return(
@@ -7,6 +7,7 @@ const Dashboard = () =>{
         <Header/>
         <DashHead>Welcome to dashboards</DashHead>
         <MyButton name=" My Button" class="variant" />
+        <Counter/>
         </>
     )
 }
